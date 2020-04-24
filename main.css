@@ -257,9 +257,6 @@ ul li:not(:last-child) {
   bottom: 12px;
   right: 80px;
   top: 10px;
-}
-
-.abs-pos {
   display: flex;
 }
 
