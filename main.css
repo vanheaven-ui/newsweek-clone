@@ -1,0 +1,268 @@
+body {
+  color: #333;
+  background-color: #f4f5f6;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* > a:hover {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-main,
+.header-2,
+.header-1,
+.scroll-header {
+  position: relative;
+  font: 16px/18px "Roboto Condensed", sans-serif;
+}
+
+.header-2,
+.scroll-header {
+  background: #f72210;
+  padding: 15px;
+}
+
+.header-1 {
+  color: #fff;
+  background: #f72210;
+  padding: 20px 10px 15px;
+  height: 95px;
+}
+
+.hdr-left {
+  padding: 6px 15px;
+  position: absolute;
+  bottom: 12px;
+  left: 25px;
+}
+
+.hdr-right {
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+}
+
+.sign-in-link {
+  color: #fff;
+  padding: 6px 12px;
+}
+
+.sign-in-link:hover {
+  color: #fff;
+}
+
+.subscribe-btn {
+  background-color: #fff;
+  color: #f72210;
+  padding: 6px 10px 6px 12px;
+}
+
+.subscribe-btn:hover {
+  color: #f72210;
+}
+
+.fa-angle-right {
+  margin-left: 10px;
+}
+
+.burger-stripes {
+  width: 74px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stripe {
+  display: block;
+  width: 30px;
+  margin-bottom: 4px;
+  height: 4px;
+  background-color: #fb9a94;
+}
+
+@media (max-width: 508px) {
+  .hdr-right {
+    font-size: 16px;
+  }
+
+  .sign-in-link {
+    padding: 6px 8px;
+  }
+
+  .subscribe-btn {
+    padding: 6px 2px 6px 4px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hdr-right {
+    font-size: 14px;
+  }
+
+  .sign-in-link {
+    padding: 6px 6px;
+  }
+
+  .subscribe-btn {
+    padding: 6px 2px 6px 4px;
+  }
+}
+
+.tnw-sm-logo {
+  margin: -3.5em 0;
+}
+
+.tnw-logo {
+  margin: -9em 0;
+}
+
+.lg-logo {
+  position: absolute;
+  top: -95px;
+  left: 33%;
+}
+
+@media (max-width: 991px) {
+  .hdr-right {
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    z-index: 100;
+  }
+
+  .header-1 {
+    height: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-2 {
+    padding: 0;
+  }
+}
+
+/* -------header-3-------- */
+
+.header-3 {
+  padding: 15px 160px 15px 0;
+  border-bottom: 2px solid #f4f5f6;
+  position: relative;
+  background: #fff;
+}
+
+.header-3-span {
+  width: 78px;
+  background: #f72210;
+  display: block;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-item {
+  line-height: 24px;
+  padding-right: 8px;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 19px;
+  color: #000;
+  display: block;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #f72210;
+}
+
+ul li:not(:last-child) {
+  border-right: 0.5px solid #d9d9d9;
+}
+
+#search {
+  width: 60px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  right: 102px;
+  color: rgba(0, 0, 0, 0.55);
+  background-color: white;
+  font-size: 19px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 82px;
+  top: 18px;
+}
+
+.top {
+  background: #fff;
+}
+
+@media (max-width: 1169px) {
+  .nav-link {
+    font-size: 18px;
+    padding-right: 4px;
+  }
+}
+
+@media (max-width: 1132px) {
+  .nav-link {
+    font-size: 17px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1096px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1038px) {
+  .nav-link {
+    font-size: 16px;
+    margin-right: -5px;
+  }
+}
+
+/* ----------scroll header----------- */
+
+.burger-scroll {
+  width: 74px;
+  position: absolute;
+  right: 0;
+}
+
+.btn-scroll {
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  bottom: 12px;
+  right: 80px;
+  top: 10px;
+}
+
+.abs-pos {
+  display: flex;
+}
+
+.body-content {
+  background: #fff;
+}
