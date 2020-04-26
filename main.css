@@ -69,8 +69,8 @@ body {
   color: #f72210;
 }
 
-.fa-angle-right {
-  margin-left: 10px;
+.fa-chevron-right {
+  margin-left: 8px;
 }
 
 .burger-stripes {
@@ -176,19 +176,22 @@ body {
   padding-right: 8px;
 }
 
-.nav-link {
-  font-weight: 700;
+.header-link {
   font-size: 19px;
-  color: #000;
   display: block;
   padding: 0;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 700;
 }
 
 .nav-link:hover {
   color: #f72210;
 }
 
-ul li:not(:last-child) {
+.navbar-nav .nav-item:not(:last-child) {
   border-right: 0.5px solid #d9d9d9;
 }
 
@@ -260,6 +263,73 @@ ul li:not(:last-child) {
   display: flex;
 }
 
+/* ---------Top section---------- */
 .body-content {
   background: #fff;
+  padding: 20px 15px 0;
+}
+
+/* -----------magazine section-------- */
+.newsweek-icon {
+  width: 29px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.mag-btn {
+  background-color: #f4f5f6;
+  color: #000;
+  font-weight: 700;
+  padding: 10px 10px 10px 12px;
+}
+
+.tag {
+  padding: 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.editor-tag {
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+/* ------------Subscribe block---------------- */
+.subscribe-img {
+  position: relative;
+  padding-bottom: 20px;
+  padding-right: 90px;
+}
+
+.btn-subscribe {
+  background-color: #f72210;
+  color: #fff;
+  padding: 10px 10px 10px 12px;
+}
+
+.details {
+  padding-right: 30px;
+}
+
+.subscriber-img-2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* -----------footer----------- */
+.footer-logo {
+  width: 251px;
+  margin: -4em 0;
 }
