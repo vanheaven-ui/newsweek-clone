@@ -63,7 +63,7 @@ h4 {
 }
 
 .p-r-5px {
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 .m-b-20px {
@@ -189,6 +189,12 @@ h4 {
   position: absolute;
   top: -95px;
   left: 33%;
+}
+
+@media (min-width: 768px) {
+  .p-r-5px {
+    padding-right: 5px;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -600,6 +606,22 @@ h4 {
 }
 
 /* ------------Subscribe block---------------- */
+.subscribe-block {
+  padding-top: 40px 15px 0;
+}
+
+.subscribe-block .col-md-8 {
+  background-color: #f4f5f6;
+  padding: 30px;
+}
+
+.subscribe-title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #f72210;
+}
+
 .subscribe-img {
   position: relative;
   padding-bottom: 20px;
