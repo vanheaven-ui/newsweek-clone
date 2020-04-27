@@ -6,6 +6,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -------borrowedCSS-------------- */
+
+.col-md-1-5 { width: 12.5%; } /* = 8,3333 + 4,16667 */
+.col-md-2-5 { width: 20.83333%; } /* = 16,6666 + 4,16667 */
+.col-md-3-5 { width: 29.16667%; } /* = 25 + 4,16667 */
+.col-md-4-5 { width: 37.5%; } /* = 33,3333 + 4,16667 */
+.col-md-5-5 { width: 45.83333%; } /* = 41,6667 + 4,16667 */
+.col-md-6-5 { width: 54.16667%; } /* = 50 + 4,16667 */
+.col-md-7-5 { width: 62.5%; } /* = 58,3333 + 4,16667 */
+.col-md-8-5 { width: 70.83333%; } /* = 66,6666 + 4,16667 */
+.col-md-9-5 { width: 79.16667%; } /* = 75 + 4,16667 */
+.col-md-10-5 { width: 87.5%; } /* = 83,3333 + 4,16667 */
+.col-md-11-5 { width: 95.8333%; } /* = 91,6666 + 4,16667 */
+
 a {
   color: inherit;
 }
@@ -42,7 +56,7 @@ h4 {
 }
 
 .padding-x-5 {
-  padding: 0 15px;
+  padding: 0 0 0 15px;
 }
 
 .p-b-20px {
@@ -305,7 +319,7 @@ h4 {
 /* ---------Top section---------- */
 .body-content {
   background: #fff;
-  padding: 20px 15px 0;
+  padding: 20px 15px 0 30px;
 }
 
 .column-title {
@@ -380,6 +394,10 @@ h4 {
 }
 
 /* -----------Opinion--------------- */
+.author-img {
+  margin-right: 15px;
+}
+
 .separator {
   width: 40px;
   background-color: #000;
