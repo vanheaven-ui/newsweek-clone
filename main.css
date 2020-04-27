@@ -8,9 +8,10 @@ body {
 
 a {
   color: inherit;
+  margin: 0;
 }
 
-* > a:hover {
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -333,17 +334,8 @@ h4 {
   padding-bottom: 11px;
 }
 
-.column-link-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #000;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.column-link-heading:hover {
-  border-bottom: 1px solid #f72210;
-  color: #f72210;
+.column-heading-link:hover {
+  border-bottom: 2px solid #f72210;
 }
 
 .img-container {
@@ -514,6 +506,10 @@ h4 {
 }
 
 /* -----------magazine section-------- */
+.section-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+}
+
 .newsweek-icon {
   width: 29px;
   height: 28px;
@@ -541,8 +537,6 @@ h4 {
 .editor-tag {
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: #f72210;
-  padding: 8px 15px 9px;
-  background: rgba(255, 255, 255, 0.9);
 }
 
 .block-title {
