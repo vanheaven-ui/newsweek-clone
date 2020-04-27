@@ -191,6 +191,13 @@ h4 {
   left: 33%;
 }
 
+@media (max-width: 991px) and (min-width: 768px) {
+  .sponsor {
+    max-width: 330px;
+    margin: 0 auto 30px;
+  }
+}
+
 @media (max-width: 991px) {
   .hdr-right {
     position: absolute;
@@ -278,27 +285,27 @@ h4 {
 }
 
 @media (max-width: 1213px) {
-  .nav-link {
+  .header-nav-link {
     font-size: 17px;
     padding-right: 4px;
   }
 }
 
 @media (max-width: 1132px) {
-  .nav-link {
+  .header-nav-link {
     font-size: 17px;
     padding: 0;
   }
 }
 
 @media (max-width: 1103px) {
-  .nav-link {
+  .header-nav-link {
     font-size: 15px;
   }
 }
 
 @media (max-width: 1038px) {
-  .nav-link {
+  .header-nav-link {
     font-size: 15px;
     margin-right: -5px;
   }
@@ -325,7 +332,7 @@ h4 {
 /* ---------Top section---------- */
 .body-content {
   background: #fff;
-  padding: 20px 15px 0 30px;
+  padding-top: 20px;
 }
 
 .column-title {
@@ -415,7 +422,7 @@ h4 {
 }
 
 .aside-r {
-  padding: 0 20px 0 30px;
+  padding: 0 20px;
 }
 
 .byline,
@@ -438,8 +445,9 @@ h4 {
 .newsletter-signup {
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   padding: 20px;
-  margin: 0 auto 30px;
   background-color: #f4f5f6;
+  max-width: 300px;
+  margin: 0 auto 30px;
 }
 
 .signup-btn {
@@ -520,11 +528,39 @@ h4 {
   margin: 0 30px 0 0;
 }
 
+.magazine-row-2 {
+  padding-top: 30px;
+}
+
 .mag-btn {
   background-color: #f4f5f6;
+  font: bold 17px/17px "Roboto Condensed", sans-serif;
   color: #000;
-  font-weight: 700;
   padding: 10px 10px 10px 12px;
+}
+
+.mag-btn:hover {
+  background-color: #dbdcdd;
+}
+
+.pt-50px {
+  padding-top: 50px;
+}
+
+.no-float-tag {
+  margin: 10px 0;
+}
+
+.no-float-tag,
+.float-tag {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+.float-tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .tag {
@@ -534,17 +570,33 @@ h4 {
   margin-right: 7px;
 }
 
-.editor-tag {
+.editor-tag,
+.mag-tag {
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: #f72210;
 }
 
+/* ------------section-picks----------------- */
+.section-picks {
+  font: bold 22px/22px "Roboto Condensed", sans-serif;
+}
+
 .block-title {
-  border-top: 1px solid #d9d9d9;
   color: #f72210;
-  padding-top: 25px;
+  padding: 25px 0 11px;
+  margin-top: 20px;
+}
+
+.picks article h4 {
+  margin: 10px 0 25px;
   font-size: 22px;
-  line-height: 22px;
+}
+
+.pick-item {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 0;
 }
 
 /* ------------Subscribe block---------------- */
