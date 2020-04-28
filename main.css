@@ -149,6 +149,39 @@ h4 {
   background-color: #fb9a94;
 }
 
+@media (max-width: 767px) {
+  .details {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .newsletter-img {
+    height: 160px;
+    width: 100%;
+  }
+
+  .descript {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsletter-img {
+    max-width: 191px;
+    width: 48%;
+  }
+
+  .subscribe-block {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 806px) and (min-width: 768px) {
+  .footer-logo {
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 508px) {
   .hdr-right {
     font-size: 16px;
@@ -191,9 +224,13 @@ h4 {
   left: 33%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .p-r-5px {
     padding-right: 5px;
+  }
+
+  .newsletter-img {
+    max-width: 191px;
   }
 }
 
@@ -611,12 +648,8 @@ h4 {
 
 /* ------------Subscribe block---------------- */
 .subscribe-block {
-  padding-top: 40px 15px 0;
-}
-
-.subscribe-block .col-md-8 {
-  background-color: #f4f5f6;
   padding: 30px;
+  background-color: #f4f5f6;
 }
 
 .subscribe-title {
@@ -624,6 +657,10 @@ h4 {
   text-transform: uppercase;
   padding-bottom: 11px;
   color: #f72210;
+}
+
+.connect-area {
+  padding-top: 40px;
 }
 
 .subscribe-img {
@@ -636,10 +673,33 @@ h4 {
   background-color: #f72210;
   color: #fff;
   padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.btn-subscribe:hover {
+  color: #fff;
 }
 
 .details {
   padding-right: 30px;
+  margin-top: 20px;
+}
+
+.newsletter-img {
+  background: url(./img/newsletter.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.descript {
+  padding: 30px;
+}
+
+.descript p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
 }
 
 .subscriber-img-2 {
@@ -654,7 +714,56 @@ h4 {
 }
 
 /* -----------footer----------- */
+.main-footer {
+  color: #666;
+  padding-top: 30px;
+}
+
+.p-b-12px {
+  padding-bottom: 12px;
+}
+
+.menu-link,
+strong {
+  font-size: 14px;
+}
+
+.item-link {
+  font-size: 24px;
+}
+
+.icon-item {
+  margin-left: 15px;
+}
+
 .footer-logo {
   width: 251px;
   margin: -4em 0;
+}
+
+.footer-links {
+  padding-top: 6px;
+}
+
+.logo-copyright {
+  font-size: 12px;
+}
+
+strong {
+  margin: 6px 10px 6px 0;
+  padding-top: 6px;
+}
+
+.menu-item {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin: 6px 10px 6px 0;
+}
+
+.menu-link:hover {
+  color: #000;
+}
+
+.footer-menu {
+  padding-top: 6px;
 }
