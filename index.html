@@ -1,0 +1,2509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsweek</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://kit.fontawesome.com/47a101f8ec.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" 
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" 
+      rel="stylesheet">
+  </head>
+  <body>
+    <header class="header-main">
+        <div id="header-1" class="container-fluid header-1">
+            <div class="row">
+                <div class="col-6 hdr-left d-none d-lg-block">
+                    <a href="#" class="weather-widget d-flex flex-column justify-content-between">
+                        <p class="d-flex">
+                            <i class="fa fa-cloud mr-2 " aria-hidden="true"></i>
+                            <span class="mr-1 d-inline-block">25&nbsp;<sup>o</sup></span>
+                            <span>Kampala District, UG</span> 
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </p>
+                    </a>
+                    <span class="date">Fri, Apr 24, 2020</span>
+                </div>
+                <a href="#" class="lg-logo d-none d-lg-block">
+                    <img src="./img/newsweek-logo.png" alt="" class="tnw-logo">
+                </a>
+                <div class="col-6 d-none d-flex justify-content-end align-items-end hdr-right">
+                    <a href="#" class="sign-in-link d-block">SIGN IN</a>
+                    <a href="" class="subscribe-btn d-block">SUBSCRIBE
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-2 d-lg-none">
+            <a href="#" class="sm-logo d-lg-none">
+                <img src="./img/newsweek-logo.png" alt="" class="tnw-sm-logo">
+            </a>
+            <a href="#" class="weather-widget d-lg-none d-flex justify-content-between">
+                <p class="brief-weather d-flex">
+                    <i class="fa fa-cloud mr-2 d-none d-sm-block" aria-hidden="true"></i>
+                    <span class="mr-1 d-none d-sm-block">25&nbsp;<sup>o</sup></span>
+                    <span class="location">Kampala District, UG</span> 
+                    <i class="fa fa-chevron-right hdr-icon" aria-hidden="true"></i>
+                </p>
+            </a>          
+            <div class="col-6 d-lg-none d-flex justify-content-end align-items-end hdr-right-2">
+                <a href="#" class="sign-in-link d-block">SIGN IN</a>
+                <a href="" class="subscribe-btn d-block">SUBSCRIBE
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <a href="#" class="burger-stripes d-flex flex-column justify-content-center align-items-center d-lg-none">
+                <span class="stripe"></span>
+                <span class="stripe"></span>
+                <span class="stripe"></span>
+            </a>
+        </div>
+        <nav class="container-fluid navbar navbar-expand header-3 d-none d-lg-block">
+            <span class="header-3-span"></span>
+            <ul class="navbar-nav justify-content-around">
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">U.S</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">World</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Tech & Science</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Culture</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Newsgeek</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Health</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">The Debate</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Vantage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header-nav-link">Weather</a>
+                </li>
+            </ul>
+            <form action="#" method="POST">
+                <input type="text" name="search_here" placeholder="Search" id="search">
+            </form>
+            <span class="search-icon">
+                <img src="./img/icon-search-glass.svg" alt="" class="mag-glass">
+            </span>
+        </nav>
+    </header>
+    <header id="onscroll-hdr">
+        <div class="row">
+            <div class="col-6">
+                <a href="#" class="sm-logo">
+                    <img src="./img/newsweek-logo.png" alt="" class="tnw-sm-logo">
+                </a>
+                <a href="#" class="weather-widget d-flex flex-lg-row">
+                    <p class="brief-weather-1 d-flex">
+                        <i class="fa fa-cloud mr-2 d-none d-sm-block" aria-hidden="true"></i>
+                        <span class="mr-1 d-none d-sm-block">25&nbsp;<sup>o</sup></span>
+                        <span class="location">Kampala District, UG</span> 
+                        <i class="fa fa-chevron-right hdr-icon" aria-hidden="true"></i>
+                    </p>
+                </a>
+            </div>
+            <div class="col-6 d-none d-lg-block">
+                <div class="d-flex justify-content-end align-items-end hdr-right-scroll">
+                    <a href="#" class="sign-in-link d-block">SIGN IN</a>
+                    <a href="" class="subscribe-btn d-block">SUBSCRIBE
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <a href="#" class="burger-scroll d-flex flex-column justify-content-center align-items-center">
+                    <span class="stripe"></span>
+                    <span class="stripe"></span>
+                    <span class="stripe"></span>
+                </a>
+            </div>
+        </div>
+    </header>        
+    <main class="body-content container-fluid">
+        <section class="top-section">
+            <h2 class="d-none">Semantic tag</h2>
+            <div class="row top-section d-none d-md-flex">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <header class="column-title text-uppercase">
+                                FEATURED STORIES
+                            </header>
+                            <article class="featured p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-1.jpg" class=" w-100" alt="">                                  
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag">U.S.</a>
+                                    </div>
+                                </div>                              
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Using Chloroquine For COVID-19 Could Lead to Death, Study Shows
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    A study of 81 patients with Covid-19 in Brazil said chloroquine should not 
+                                    be used to treat the disease because it can lead to death.
+                                </div>
+                            </article>
+                            <article class="featured-2 p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-2.jpg" class="w-100" alt="">                                   
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag text-uppercase">News</a>
+                                    </div>
+                                </div>                               
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Sweden Claims It's Prepared For Second Wave Despite Having No Lockdown
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    The country's public health agency claims its capital Stockholm, where the 
+                                    majority of the cases have been reported, may have already passed the peak of the outbreak.
+                                </div>
+                            </article>
+                            <article class="featured-3 p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-3.jpg" alt="" class="w-100">                                  
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag text-uppercase">World</a>
+                                    </div>
+                                </div>                              
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Trump’s Cartel Busting Navy Ship Sails Home, Stricken by COVID-19
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    The USS Kidd was part of President Donald Trump's recently enhanced anti-drug mission he linked to 
+                                    stopping the spread of the novel coronavirus when a sick sailor had to be evacuated with the help of U.S. partner
+                                </div>
+                            </article>
+                            <article class="featured-4 p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-4.jpg" alt="" class="w-100">
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag">U.S.</a>
+                                    </div>
+                                </div>                                
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Almost Half of Latino Voters Approve of Donald Trump's COVID-19 Response
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    Almost half of Latinos say they approve of Trump's handling of the coronavirus pandemic, and that the president 
+                                    is providing helpful information. Yet, most say they still will vote for former Vice President Joe Biden in November.
+                                </div>
+                            </article>
+                            <article class="featured-5 p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-5.jpg" alt="" class="w-100">
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag text-uppercase">U.S.</a>
+                                    </div>
+                                </div>                               
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Whitmer Extends Divisive Lockdown as VP Speculation Swirls
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    Michigan Governor Gretchen Whitmer announced Friday the extension of the state's stay-at-home order until May 15.
+                                </div>
+                            </article>
+                            <article class="card m-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-6.jpg" alt="" class="w-100">
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag-blue text-uppercase">Sponsored Insight</a>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <h3>
+                                        <a href="#" class="column-heading-link">
+                                            Weathering the Perfect Storm
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to 
+                                        cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.
+                                    </div>
+                                </div>                               
+                            </article>
+                            <article class="card m-b-20px">
+                                <a href="#">
+                                    <img src="./img/featured-7.png" alt="" class="w-100">
+                                </a>
+                                <div class="card-text">
+                                    <h3>
+                                        <a href="#" class="column-heading-link">
+                                            World's Best Hospitals 2020
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries
+                                    </div>
+                                </div>                               
+                            </article>
+                            <article class="card m-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="featured-top w-100 d-block">
+                                        <img src="./img/featured-8.jpg" alt="" class="w-100">                                   
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag-blue text-uppercase">Sponsored Insight</a>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <h3>
+                                        <a href="#" class="column-heading-link">
+                                            Who Leads the Field in Dependency Treatment in 2020?
+                                        </a>
+                                    </h3>
+                                    <div class="summary">
+                                        When seeking guidance on beating an addiction, there are many things to consider. 
+                                        Where do you go to ensure that you will not just turn the corner, but keep carrying on 
+                                        down the right road for the rest of your life? Find out more.
+                                    </div>
+                                </div>                                                            
+                            </article>
+                        </div>
+                        <div class="col-md-7 p-r-5px">
+                            <header class="column-title text-uppercase">
+                                Top Story
+                            </header>
+                            <article class="top-article p-b-20px">
+                                <div class="img-container">
+                                    <a href="#" class="top-story-img d-block w-100">
+                                        <img src="./img/ts-1.jpg" alt="" class="w-100">
+                                    </a>
+                                    <div class="category">
+                                        <a href="#" class="category-tag text-uppercase">World</a>
+                                    </div>
+                                </div>                                   
+                                <h3>
+                                    <a href="#" class="column-heading-link">
+                                        Kim Jong Un is Absent Amid Health Rumors on Armed Forces Anniversary
+                                    </a>
+                                </h3>
+                                <div class="summary">
+                                    China has sent a medical team to assess the health status of the supreme leader, Reuters reported.
+                                </div>
+                            </article>
+                            <article class="ts-related p-b-20px border-top">
+                                <div class="clearfix">
+                                    <a href="" class="related thumbnail">
+                                        <img src="./img/ts-2.jpg" alt="" class="float-left mr-3">
+                                    </a>
+                                    <div class="rs-text">
+                                        <h4 class="">
+                                            <a href="#" class="hov-red-u-small">
+                                                China Sends Doctors to North Korea as Rumors on Kim Jong Un's Health Swirl
+                                            </a>
+                                        </h4>
+                                        <span class="summary mb-0">
+                                            China has sent a team of doctors to North Korea to help determine Supreme Leader of North Korea Kim Jong Un's health status, 
+                                            Reuters reported on Friday. Hong Kong state media reported that Kim was dead, though there has been no confirmation from U.S. 
+                                            sources at this point.
+                                        </span>
+                                    </div>                                                                                  
+                                </div>                                  
+                            </article>
+                            <nav class="navbar pt-0 px-0 p-b-20px">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item border-0 mb-2">
+                                        <a href="#" class="nav-link small-title">
+                                            North Korea Admits to 'Hardships' As Kim Jong Un Remains Out of Public Eye
+                                        </a>
+                                    </li>
+                                    <li class="nav-item border-0">
+                                        <a href="#" class="nav-link small-title">
+                                            Russia Sends Flowers to Absent Kim Jong Un as U.S., South Korea Hold Drills
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav> 
+                            <article class="pandemic-stories p-b-20px">
+                                <h2 class="d-none">Identifying heading</h2>
+                                <header class="column-title text-uppercase">
+                                    HEROES OF THE PANDEMIC
+                                </header>
+                                <div class="row">
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <div class="img-container">
+                                                <a href="#" class="hero-img d-block">
+                                                    <img src="./img/hero-1.jpg" alt="" class="w-100">                                           
+                                                </a>
+                                                <div class="category-small">
+                                                    <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                                </div>
+                                            </div>                                           
+                                        </div>                                       
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                Teenagers Shop for the Vulnerable During Coronavirus Emergency
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            "I almost cried," said a user of Six Feet Supplies, a charity started by 
+                                            teenagers who shop for those susceptible to COVID-19.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <a href="#" class="hero-img d-block">
+                                                <img src="./img/hero-2.jpg" alt="" class="w-100">                                                
+                                            </a>
+                                            <div class="category-small">
+                                                <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                            </div>
+                                        </div>                                      
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                Tennessee Group Makes Coronavirus Face Masks for Local, International Use
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            "We're not selling anything," Sacco said Tuesday. "Every single bit of this is donation-only or nothing."
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <a href="#" class="hero-img d-block">
+                                                <img src="./img/hero-3.jpg" alt="" class="w-100">                                          
+                                            </a>
+                                            <div class="category-small">
+                                                <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                            </div>
+                                        </div>                                        
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            "When this whole thing started what kept me up at night is the possibility of mass casualties in 
+                                            our community," Riya Ortiz told Newsweek
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="culture-travel p-b-20px">
+                                <h2 class="d-none">Identifying heading</h2>
+                                <header class="column-title text-uppercase">
+                                    CULTURE & TRAVEL
+                                </header>
+                                <div class="row">
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <a href="#" class="hero-img d-block">
+                                                <img src="./img/culture-1.jpg" alt="" class="w-100">
+                                            </a>
+                                            <div class="category-small">
+                                                <a href="#" class="special-tag text-capitalise">
+                                                    Jane Goodall
+                                                </a>
+                                            </div>    
+                                        </div>                                       
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                A Conversation With Jane Goodall on the Pandemic and Hope for the Planet
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            Goodall talks to Newsweek about the pandemic, her new documentary and 
+                                            the most important message she hopes her life's work leaves behind.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <a href="#" class="hero-img d-block">
+                                                <img src="./img/culture-2.jpg" alt="" class="w-100">                                               
+                                            </a>
+                                            <div class="category-small">
+                                                <a href="#" class="special-tag text-uppercase">Earth day</a>
+                                            </div>
+                                        </div>                                      
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                13 Spectacular Photos of the Planet From the Lens of a Travel Photographer
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            As we celebrate the 50th anniversary of Earth Day, a travel photographer 
+                                            looks back on her favorite photos she's taken around the world.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 p-r-5px">
+                                        <div class="img-container">
+                                            <a href="#" class="hero-img d-block">
+                                                <img src="./img/culture-3.jpg" alt="" class="w-100">                                               
+                                            </a>
+                                            <div class="category-small">
+                                                <a href="#" class="special-tag text-uppercase">Travel</a>
+                                            </div>
+                                        </div>                                      
+                                        <div class="title">
+                                            <a href="#" class="title-link">
+                                                These Underwater Art Exhibits Are Helping to Save Our Oceans
+                                            </a>
+                                        </div>
+                                        <div class="summary-unique">
+                                            British eco-artist Jason deCaires Taylor creates eerie 
+                                            undersea worlds that blend sculpture and marine life, creating havens 
+                                            for coral to regenerate and new ecosystems to thrive.
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="more-stories pt-3 p-b-20px" id="more-stories">
+                                <h2 class="d-none">Identifying heading</h2>
+                                <header class="column-title text-uppercase">
+                                    More Stories
+                                </header>
+                                <ul class="list-unstyled more-stories-wrapper">
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img">
+                                            <img src="./img/more-story-1.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <div class="story-content">
+                                            <h4>
+                                                <a href="#" class="hov-red-u-small">
+                                                    'I'm a Funeral Director Handling COVID-19 Deaths'
+                                                </a>
+                                            </h4>
+                                            <div class="summary">
+                                                This is hitting my community, the African American community, disproportionately.
+                                            </div>                   
+                                        </div>                    
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-2.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Small Business Loans Get More Funding After Trump Signs $484 Billion Bill
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Trump signed a $484 billion appropriations bill to add $320 billion to the CARES 
+                                            Act's small business loan program, with money targeted for minority- and women-owned 
+                                            businesses and for small- and mid-sized banks.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-3.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                More Than 50,000 People in the U.S. Have Died From Coronavirus
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Although America has the highest number of deaths, President Trump claims 
+                                            the country is faring better than others on a per capita basis.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="">
+                                            <img src="./img/more-story-4.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Trump Claims Suggestion to Treat COVID-19 with Disinfectant was 'Sarcasm'
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            Just hours after his White House Press Secretary claimed his remarks were merely taken out of context, 
+                                            the president offered a new explanation for why he suggested that injected disinfectant be investigated 
+                                            as a coronavirus treatment.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-5.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                2020 Vote-By-Mail Lawsuits Have Become 'Nuclear Arms Race' for Both Parties
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            "The parties are good at using these things strategically and this year the new 
+                                            item turns out to be voting by mail," one election law expert told Newsweek.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-6.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Meghan Markle Accuses Mail on Sunday of 'Humiliating' Her Father
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            The Duchess of Sussex's lawyers accussed the Mail on Sunday of "manipulating" 
+                                            Thomas Markle and claimed he missed her wedding because of "shaming" over his staged paparazzi pictures.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-7.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Georgia Reopens More Than a Week Before Cases Satisfy Trump Guide
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            President Donald Trump acknowledged it was Kemp's decision to make—but said he disagreed with it.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-8.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Trump Remarks Spur Companies to Warn People Against Disinfectant Injections
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            The president seemed to raise the idea of injecting coronavirus patients 
+                                            with disinfectant at a Thursday press briefing.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-9.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Hydroxychloroquine Leads To Heart Abnormalities in COVID-19 Patients
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            After the patients were administered the drugs in the New York facility, an 
+                                            electrocardiogram revealed cardiac rhythm problems in many people treated.
+                                        </div>                                       
+                                    </li>
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-10.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Majority of Americans Who Lost Jobs Believe They'll Return, Poll Shows
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            The survey also reports that 46 percent of U.S. adults say their household has 
+                                            experienced some type of financial loss.
+                                        </div>                                       
+                                    </li>                          
+                                    <li class="more-story border-top clearfix">
+                                        <a href="#" class="more-story-img d-block">
+                                            <img src="./img/more-story-11.jpg" alt="" class="float-left mr-3">
+                                        </a>
+                                        <h4>
+                                            <a href="#" class="hov-red-u-small">
+                                                Sunlight Kills Coronavirus Quickly, Says Top DHS Scientist
+                                            </a>
+                                        </h4>
+                                        <div class="summary">
+                                            The research did not specify the intensity and wavelength of the UV light used in 
+                                            the experiment—and it's also not known whether the sunlight imitated the actual natural 
+                                            sunlight during the summer.
+                                        </div>                                       
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <header class="column-title text-uppercase">
+                        Opinion
+                    </header>
+                    <div class="column-main-font">
+                        <ul class="navbar-nav opinions-wrapper p-b-20px">
+                            <li class="d-flex pb-2 border-bottom">
+                                <a href="#" class="author">
+                                    <img src="./img/opinion-1.png" alt="" class="author-img">
+                                </a>
+                                <div class="bottom">
+                                    <a href="#" class="nav-link small-title">
+                                        Don't Bail Out Fossil Fuels. Buy Them Out Instead
+                                    </a>
+                                    <div class="byline mt-1 text-uppercase">
+                                        BY WENONAH HAUTER
+                                    </div>
+                                </div>                                                                                
+                            </li>
+                            <li class="py-2 d-flex border-bottom">
+                                <a href="#" class="author d-block">
+                                    <img src="./img/opinion-2.png" alt="" class="author-img">
+                                </a>
+                                <div class="bottom">
+                                    <a href="#" class="nav-link small-title">
+                                        Most U.S. Hospitals Are Empty. Soon They Might Be Closed for Good
+                                    </a>
+                                    <div class="byline mt-1 text-uppercase">
+                                        BY RICK JACKSON
+                                    </div>
+                                </div>                                   
+                            </li>
+                            <li class="d-flex py-2 border-bottom">
+                                <a href="#" class="author d-block">
+                                    <img src="./img/opinion-3.png" alt="" class="author-img">
+                                </a>
+                                <div class="bottom">
+                                    <a href="#" class="nav-link small-title">
+                                        Europe Is Now a Net Exporter of Tigers—It's Time to Shut That Trade Down
+                                    </a>
+                                    <div class="byline mt-1">
+                                        BY KIERAN HARKIN
+                                    </div>
+                                </div>                              
+                            </li>
+                            <li class="d-flex py-2">
+                                <a href="#" class="author d-block ">
+                                    <img src="./img/opinion-4.png" alt="" class="author-img">
+                                </a>
+                                <div class="bottom">
+                                    <a href="#" class="nav-link small-title">
+                                        There Are Three Paths Forward for U.S.-Iran Relations. Only One Averts War
+                                    </a>
+                                    <div class="byline mt-1">
+                                        BY BONNIE KRISTIAN
+                                    </div>
+                                </div>    
+                            </li>                       
+                        </ul>
+                        <div class="debate">
+                            <header class="column-title text-uppercase">
+                                The Debate
+                            </header>
+                            <div class="debate-item-1">
+                                <div class="debate-main d-flex">
+                                    <a href="#" class="debate-img">
+                                        <img src="./img/debate-1.jpg" alt="" class="mr-3">
+                                    </a>
+                                    <a href="#" class="debate-topic d-flex align-items-center">
+                                        Trump's Right. The WHO Is Not Fit for Purpose
+                                    </a>
+                                </div>
+                                <div class="debate-byline d-flex justify-content-between align-items-center">
+                                    <div class="byline-left">
+                                        <span class="by">By</span>
+                                        <a href="#" class="debate-author">NIGEL FARAGE</a>
+                                    </div>                                        
+                                    <img src="./img/debate-3.png" alt="" class="debate-author-img">
+                                </div>
+                            </div>
+                            <div class="separator">VS</div>
+                            <div class="debate-item-2">
+                                <div class="debate-main d-flex">
+                                    <a href="#" class="debate-img d-block">
+                                        <img src="./img/debate-2.jpg" alt="" class="mr-3">
+                                    </a>
+                                    <a href="#" class="debate-topic d-flex align-items-center">
+                                        Defunding the WHO Mid-Pandemic Is Lunacy
+                                    </a>
+                                </div>
+                                <div class="debate-byline d-flex justify-content-between align-items-center">
+                                    <div class="byline-left">                                           
+                                        <span class="by">By</span>
+                                        <a href="#" class="debate-author">JAMIE METZL</a>
+                                    </div>
+                                    <img src="./img/debate-4.png" alt="" class="debate-author-img">                                      
+                                </div>
+                            </div>
+                        </div>
+                        <header class="column-title text-uppercase">
+                            Latest News
+                        </header>
+                        <ul class="navbar-nav">
+                            <li class="nav-item d-flex p-b-10px border-bottom border-right-0">
+                                <a href="#">
+                                    <img src="./img/latest-news-1.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="nav-link aside-link d-flex">
+                                    The Coronavirus Crisis Is Flint, Writ Large
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                                <a href="#">
+                                    <img src="./img/latest-news-2.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="nav-link aside-link d-flex">
+                                    Did Anyone Win the $174 Million Mega Millions Jackpot Last Night?
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                                <a href="#">
+                                    <img src="./img/latest-news-3.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="nav-link aside-link d-flex">
+                                    Chuck Cooper Became First African American Drafted in the NBA 70 Years Ago
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                                <a href="#">
+                                    <img src="./img/latest-news-4.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="nav-link aside-link d-flex">
+                                    Author of Book Explaining Why Women Are Victim-Blamed Targeted by Trolls
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex p-y-10px">
+                                <a href="#">
+                                    <img src="./img/latest-news-5.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="nav-link aside-link d-flex">
+                                    Just Over 3 Percent of Low-Income Californians Want to Open State: Poll
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                    
+                    <article class="card sponsor m-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-1.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Sets the Leading Liberal Arts Schools Apart?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                            </div>
+                        </div>                                             
+                    </article>
+                    <div class="card newsletter-signup">
+                        <div class="signup-title text-uppercase d-flex mb-3">
+                            <img src="./img/newsweek-icon.png" alt="" class="newsweek-icon">
+                            <p class="card-para">Sign up for our Newsletter</p>
+                        </div>
+                        <a href="#" role="button" class="d-inline-block signup-btn">
+                            SIGN UP
+                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                        <small><a href="#" class="note">Update your preferences »</a></small>
+                    </div>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-2.jpg" alt="" class="w-100">                       
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Qualities Make a Leading University?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                A Leading University has to have a track record of producing well qualified, 
+                                gifted and employable candidates. Which schools earn the accolade?
+                            </div>
+                        </div>                                             
+                    </article>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-3.png" alt="" class="w-100">                       
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    How Can a Good Business Education Benefit You?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Enrolling at a good Business School might be the best investment you can make 
+                                in your future, and while costs can be significant, the rewards are incalculable. Find out more.
+                            </div>
+                        </div>                                              
+                    </article>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-4.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Is Your Accounting And Finance Team Missing?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Have you ever wanted more from your accounting and finance professionals? These three letters can help.
+                            </div>
+                        </div>                                             
+                    </article> 
+                </div>
+            </div>
+            <div class="row d-md-none mobile">
+                <div class="col-12">
+                    <header class="column-title text-uppercase">
+                        Top Story
+                    </header>
+                    <article class="top-article p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="top-story-img d-block w-100">
+                                <img src="./img/ts-1.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag text-uppercase">World</a>
+                            </div>
+                        </div>                                   
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Kim Jong Un is Absent Amid Health Rumors on Armed Forces Anniversary
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            China has sent a medical team to assess the health status of the supreme leader, Reuters reported.
+                        </div>
+                    </article>
+                    <article class="ts-related p-b-20px border-top">
+                        <div class="clearfix">
+                            <a href="" class="related thumbnail">
+                                <img src="./img/ts-2.jpg" alt="" class="float-left mr-3">
+                            </a>
+                            <div class="rs-text">
+                                <h4 class="">
+                                    <a href="#" class="hov-red-u-small">
+                                        China Sends Doctors to North Korea as Rumors on Kim Jong Un's Health Swirl
+                                    </a>
+                                </h4>
+                                <span class="summary mb-0">
+                                    China has sent a team of doctors to North Korea to help determine Supreme Leader of North Korea Kim Jong Un's health status, 
+                                    Reuters reported on Friday. Hong Kong state media reported that Kim was dead, though there has been no confirmation from U.S. 
+                                    sources at this point.
+                                </span>
+                            </div>                                                                                  
+                        </div>                                  
+                    </article>
+                    <nav class="navbar pt-0 px-0 p-b-20px">
+                        <ul class="navbar-nav">
+                            <li class="nav-item border-0 mb-2">
+                                <a href="#" class="nav-link small-title">
+                                    North Korea Admits to 'Hardships' As Kim Jong Un Remains Out of Public Eye
+                                </a>
+                            </li>
+                            <li class="nav-item border-0">
+                                <a href="#" class="nav-link small-title">
+                                    Russia Sends Flowers to Absent Kim Jong Un as U.S., South Korea Hold Drills
+                                </a>
+                            </li>
+                        </ul>
+                    </nav> 
+                    <header class="column-title text-uppercase">
+                        FEATURED STORIES
+                    </header>
+                    <article class="featured p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-1.jpg" class=" w-100" alt="">                                  
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag">U.S.</a>
+                            </div>
+                        </div>                              
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Using Chloroquine For COVID-19 Could Lead to Death, Study Shows
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            A study of 81 patients with Covid-19 in Brazil said chloroquine should not 
+                            be used to treat the disease because it can lead to death.
+                        </div>
+                    </article>
+                    <article class="featured-2 p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-2.jpg" class="w-100" alt="">                                   
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag text-uppercase">News</a>
+                            </div>
+                        </div>                               
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Sweden Claims It's Prepared For Second Wave Despite Having No Lockdown
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            The country's public health agency claims its capital Stockholm, where the 
+                            majority of the cases have been reported, may have already passed the peak of the outbreak.
+                        </div>
+                    </article>
+                    <article class="featured-3 p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-3.jpg" alt="" class="w-100">                                  
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag text-uppercase">World</a>
+                            </div>
+                        </div>                              
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Trump’s Cartel Busting Navy Ship Sails Home, Stricken by COVID-19
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            The USS Kidd was part of President Donald Trump's recently enhanced anti-drug mission he linked to 
+                            stopping the spread of the novel coronavirus when a sick sailor had to be evacuated with the help of U.S. partner
+                        </div>
+                    </article>
+                    <article class="featured-4 p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-4.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag">U.S.</a>
+                            </div>
+                        </div>                                
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Almost Half of Latino Voters Approve of Donald Trump's COVID-19 Response
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            Almost half of Latinos say they approve of Trump's handling of the coronavirus pandemic, and that the president 
+                            is providing helpful information. Yet, most say they still will vote for former Vice President Joe Biden in November.
+                        </div>
+                    </article>
+                    <article class="featured-5 p-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-5.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag text-uppercase">U.S.</a>
+                            </div>
+                        </div>                               
+                        <h3>
+                            <a href="#" class="column-heading-link">
+                                Whitmer Extends Divisive Lockdown as VP Speculation Swirls
+                            </a>
+                        </h3>
+                        <div class="summary">
+                            Michigan Governor Gretchen Whitmer announced Friday the extension of the state's stay-at-home order until May 15.
+                        </div>
+                    </article>
+                    <header class="column-title text-uppercase">
+                        Opinion
+                    </header>
+                    <ul class="navbar-nav opinions-wrapper column-main-font p-b-20px">
+                        <li class="d-flex pb-2 border-bottom">
+                            <a href="#" class="author">
+                                <img src="./img/opinion-1.png" alt="" class="author-img">
+                            </a>
+                            <div class="bottom">
+                                <a href="#" class="nav-link small-title">
+                                    Don't Bail Out Fossil Fuels. Buy Them Out Instead
+                                </a>
+                                <div class="byline mt-1 text-uppercase">
+                                    BY WENONAH HAUTER
+                                </div>
+                            </div>                                                                                
+                        </li>
+                        <li class="py-2 d-flex border-bottom">
+                            <a href="#" class="author d-block">
+                                <img src="./img/opinion-2.png" alt="" class="author-img">
+                            </a>
+                            <div class="bottom">
+                                <a href="#" class="nav-link small-title">
+                                    Most U.S. Hospitals Are Empty. Soon They Might Be Closed for Good
+                                </a>
+                                <div class="byline mt-1 text-uppercase">
+                                    BY RICK JACKSON
+                                </div>
+                            </div>                                   
+                        </li>
+                        <li class="d-flex py-2 border-bottom">
+                            <a href="#" class="author d-block">
+                                <img src="./img/opinion-3.png" alt="" class="author-img">
+                            </a>
+                            <div class="bottom">
+                                <a href="#" class="nav-link small-title">
+                                    Europe Is Now a Net Exporter of Tigers—It's Time to Shut That Trade Down
+                                </a>
+                                <div class="byline mt-1">
+                                    BY KIERAN HARKIN
+                                </div>
+                            </div>                              
+                        </li>
+                        <li class="d-flex py-2">
+                            <a href="#" class="author d-block ">
+                                <img src="./img/opinion-4.png" alt="" class="author-img">
+                            </a>
+                            <div class="bottom">
+                                <a href="#" class="nav-link small-title">
+                                    There Are Three Paths Forward for U.S.-Iran Relations. Only One Averts War
+                                </a>
+                                <div class="byline mt-1">
+                                    BY BONNIE KRISTIAN
+                                </div>
+                            </div>    
+                        </li>                       
+                    </ul>
+                    <div class="debate column-main-font">
+                        <header class="column-title text-uppercase">
+                            The Debate
+                        </header>
+                        <div class="debate-item-1">
+                            <div class="debate-main d-flex">
+                                <a href="#" class="debate-img">
+                                    <img src="./img/debate-1.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="debate-topic d-flex align-items-center">
+                                    Trump's Right. The WHO Is Not Fit for Purpose
+                                </a>
+                            </div>
+                            <div class="debate-byline d-flex justify-content-between align-items-center">
+                                <div class="byline-left">
+                                    <span class="by">By</span>
+                                    <a href="#" class="debate-author">NIGEL FARAGE</a>
+                                </div>                                        
+                                <img src="./img/debate-3.png" alt="" class="debate-author-img">
+                            </div>
+                        </div>
+                        <div class="separator">VS</div>
+                        <div class="debate-item-2">
+                            <div class="debate-main d-flex">
+                                <a href="#" class="debate-img d-block">
+                                    <img src="./img/debate-2.jpg" alt="" class="mr-3">
+                                </a>
+                                <a href="#" class="debate-topic d-flex align-items-center">
+                                    Defunding the WHO Mid-Pandemic Is Lunacy
+                                </a>
+                            </div>
+                            <div class="debate-byline d-flex justify-content-between align-items-center">
+                                <div class="byline-left">                                           
+                                    <span class="by">By</span>
+                                    <a href="#" class="debate-author">JAMIE METZL</a>
+                                </div>
+                                <img src="./img/debate-4.png" alt="" class="debate-author-img">                                      
+                            </div>
+                        </div>
+                    </div>
+                    <article class="card m-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-6.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag-blue text-uppercase">Sponsored Insight</a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Weathering the Perfect Storm
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to 
+                                cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.
+                            </div>
+                        </div>                               
+                    </article>
+                    <article class="card m-b-20px">
+                        <a href="#">
+                            <img src="./img/featured-7.png" alt="" class="w-100">
+                        </a>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    World's Best Hospitals 2020
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries
+                            </div>
+                        </div>                               
+                    </article>
+                    <article class="card m-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/featured-8.jpg" alt="" class="w-100">                                   
+                            </a>
+                            <div class="category">
+                                <a href="#" class="category-tag-blue text-uppercase">Sponsored Insight</a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Who Leads the Field in Dependency Treatment in 2020?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                When seeking guidance on beating an addiction, there are many things to consider. 
+                                Where do you go to ensure that you will not just turn the corner, but keep carrying on 
+                                down the right road for the rest of your life? Find out more.
+                            </div>
+                        </div>                                                            
+                    </article>
+                    <article class="more-stories pt-3 p-b-20px p-3">
+                        <header class="column-title text-uppercase">
+                            More Stories
+                        </header>
+                        <ul class="list-unstyled more-stories-wrapper">
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img">
+                                    <img src="./img/more-story-1.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <div class="story-content">
+                                    <h4>
+                                        <a href="#" class="hov-red-u-small">
+                                            'I'm a Funeral Director Handling COVID-19 Deaths'
+                                        </a>
+                                    </h4>
+                                    <div class="summary">
+                                        This is hitting my community, the African American community, disproportionately.
+                                    </div>                   
+                                </div>                    
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-2.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Small Business Loans Get More Funding After Trump Signs $484 Billion Bill
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    Trump signed a $484 billion appropriations bill to add $320 billion to the CARES 
+                                    Act's small business loan program, with money targeted for minority- and women-owned 
+                                    businesses and for small- and mid-sized banks.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-3.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        More Than 50,000 People in the U.S. Have Died From Coronavirus
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    Although America has the highest number of deaths, President Trump claims 
+                                    the country is faring better than others on a per capita basis.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="">
+                                    <img src="./img/more-story-4.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Trump Claims Suggestion to Treat COVID-19 with Disinfectant was 'Sarcasm'
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    Just hours after his White House Press Secretary claimed his remarks were merely taken out of context, 
+                                    the president offered a new explanation for why he suggested that injected disinfectant be investigated 
+                                    as a coronavirus treatment.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-5.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        2020 Vote-By-Mail Lawsuits Have Become 'Nuclear Arms Race' for Both Parties
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    "The parties are good at using these things strategically and this year the new 
+                                    item turns out to be voting by mail," one election law expert told Newsweek.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-6.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Meghan Markle Accuses Mail on Sunday of 'Humiliating' Her Father
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    The Duchess of Sussex's lawyers accussed the Mail on Sunday of "manipulating" 
+                                    Thomas Markle and claimed he missed her wedding because of "shaming" over his staged paparazzi pictures.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-7.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Georgia Reopens More Than a Week Before Cases Satisfy Trump Guide
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    President Donald Trump acknowledged it was Kemp's decision to make—but said he disagreed with it.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-8.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Trump Remarks Spur Companies to Warn People Against Disinfectant Injections
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    The president seemed to raise the idea of injecting coronavirus patients 
+                                    with disinfectant at a Thursday press briefing.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-9.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Hydroxychloroquine Leads To Heart Abnormalities in COVID-19 Patients
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    After the patients were administered the drugs in the New York facility, an 
+                                    electrocardiogram revealed cardiac rhythm problems in many people treated.
+                                </div>                                       
+                            </li>
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-10.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Majority of Americans Who Lost Jobs Believe They'll Return, Poll Shows
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    The survey also reports that 46 percent of U.S. adults say their household has 
+                                    experienced some type of financial loss.
+                                </div>                                       
+                            </li>                          
+                            <li class="more-story border-top clearfix">
+                                <a href="#" class="more-story-img d-block">
+                                    <img src="./img/more-story-11.jpg" alt="" class="float-left mr-3">
+                                </a>
+                                <h4>
+                                    <a href="#" class="hov-red-u-small">
+                                        Sunlight Kills Coronavirus Quickly, Says Top DHS Scientist
+                                    </a>
+                                </h4>
+                                <div class="summary">
+                                    The research did not specify the intensity and wavelength of the UV light used in 
+                                    the experiment—and it's also not known whether the sunlight imitated the actual natural 
+                                    sunlight during the summer.
+                                </div>                                       
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="pandemic-stories p-b-20px">
+                        <h2 class="d-none">semantic tag</h2>
+                        <header class="column-title text-uppercase">
+                            HEROES OF THE PANDEMIC
+                        </header>
+                        <div class="row">
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <div class="img-container">
+                                        <a href="#" class="hero-img d-block">
+                                            <img src="./img/hero-1.jpg" alt="" class="w-100">                                           
+                                        </a>
+                                        <div class="category-small">
+                                            <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                        </div>
+                                    </div>                                           
+                                </div>                                       
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        Teenagers Shop for the Vulnerable During Coronavirus Emergency
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    "I almost cried," said a user of Six Feet Supplies, a charity started by 
+                                    teenagers who shop for those susceptible to COVID-19.
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <a href="#" class="hero-img d-block">
+                                        <img src="./img/hero-2.jpg" alt="" class="w-100">                                                
+                                    </a>
+                                    <div class="category-small">
+                                        <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                    </div>
+                                </div>                                      
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        Tennessee Group Makes Coronavirus Face Masks for Local, International Use
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    "We're not selling anything," Sacco said Tuesday. "Every single bit of this is donation-only or nothing."
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <a href="#" class="hero-img d-block">
+                                        <img src="./img/hero-3.jpg" alt="" class="w-100">                                          
+                                    </a>
+                                    <div class="category-small">
+                                        <a href="#" class="special-tag text-capitalise">Pandemic Hero</a>
+                                    </div>
+                                </div>                                        
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    "When this whole thing started what kept me up at night is the possibility of mass casualties in 
+                                    our community," Riya Ortiz told Newsweek
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="culture-travel p-b-20px">
+                        <h2 class="d-none">Semantic tag</h2>
+                        <header class="column-title text-uppercase">
+                            CULTURE & TRAVEL
+                        </header>
+                        <div class="row">
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <a href="#" class="hero-img d-block">
+                                        <img src="./img/culture-1.jpg" alt="" class="w-100">
+                                    </a>
+                                    <div class="category-small">
+                                        <a href="#" class="special-tag text-capitalise">Jane Goodall</a>
+                                    </div>    
+                                </div>                                       
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        A Conversation With Jane Goodall on the Pandemic and Hope for the Planet
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    Goodall talks to Newsweek about the pandemic, her new documentary and 
+                                    the most important message she hopes her life's work leaves behind.
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <a href="#" class="hero-img d-block">
+                                        <img src="./img/culture-2.jpg" alt="" class="w-100">                                               
+                                    </a>
+                                    <div class="category-small">
+                                        <a href="#" class="special-tag text-uppercase">Earth day</a>
+                                    </div>
+                                </div>                                      
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        13 Spectacular Photos of the Planet From the Lens of a Travel Photographer
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    As we celebrate the 50th anniversary of Earth Day, a travel photographer 
+                                    looks back on her favorite photos she's taken around the world.
+                                </div>
+                            </div>
+                            <div class="col-md-4 p-r-5px">
+                                <div class="img-container">
+                                    <a href="#" class="hero-img d-block">
+                                        <img src="./img/culture-3.jpg" alt="" class="w-100">                                               
+                                    </a>
+                                    <div class="category-small">
+                                        <a href="#" class="special-tag text-uppercase">Travel</a>
+                                    </div>
+                                </div>                                      
+                                <div class="title">
+                                    <a href="#" class="title-link">
+                                        These Underwater Art Exhibits Are Helping to Save Our Oceans
+                                    </a>
+                                </div>
+                                <div class="summary-unique">
+                                    British eco-artist Jason deCaires Taylor creates eerie 
+                                    undersea worlds that blend sculpture and marine life, creating havens 
+                                    for coral to regenerate and new ecosystems to thrive.
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <header class="column-title text-uppercase">
+                        Latest News
+                    </header>
+                    <ul class="navbar-nav column-main-font">
+                        <li class="nav-item d-flex p-b-10px border-bottom border-right-0">
+                            <a href="#">
+                                <img src="./img/latest-news-1.jpg" alt="" class="mr-3">
+                            </a>
+                            <a href="#" class="nav-link aside-link d-flex">
+                                The Coronavirus Crisis Is Flint, Writ Large
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                            <a href="#">
+                                <img src="./img/latest-news-2.jpg" alt="" class="mr-3">
+                            </a>
+                            <a href="#" class="nav-link aside-link d-flex">
+                                Did Anyone Win the $174 Million Mega Millions Jackpot Last Night?
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                            <a href="#">
+                                <img src="./img/latest-news-3.jpg" alt="" class="mr-3">
+                            </a>
+                            <a href="#" class="nav-link aside-link d-flex">
+                                Chuck Cooper Became First African American Drafted in the NBA 70 Years Ago
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex p-y-10px border-bottom border-right-0">
+                            <a href="#">
+                                <img src="./img/latest-news-4.jpg" alt="" class="mr-3">
+                            </a>
+                            <a href="#" class="nav-link aside-link d-flex">
+                                Author of Book Explaining Why Women Are Victim-Blamed Targeted by Trolls
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex p-y-10px">
+                            <a href="#">
+                                <img src="./img/latest-news-5.jpg" alt="" class="mr-3">
+                            </a>
+                            <a href="#" class="nav-link aside-link d-flex">
+                                Just Over 3 Percent of Low-Income Californians Want to Open State: Poll
+                            </a>
+                        </li>
+                    </ul>
+                    <article class="card sponsor m-b-20px">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-1.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Sets the Leading Liberal Arts Schools Apart?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                            </div>
+                        </div>                                             
+                    </article>
+                    <div class="card newsletter-signup">
+                        <div class="signup-title text-uppercase d-flex mb-3">
+                            <img src="./img/newsweek-icon.png" alt="" class="newsweek-icon">
+                            <p class="card-para">Sign up for our Newsletter</p>
+                        </div>
+                        <a href="#" role="button" class="d-inline-block signup-btn">
+                            SIGN UP
+                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                        <small><a href="#" class="note">Update your preferences »</a></small>
+                    </div>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-2.jpg" alt="" class="w-100">                       
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Qualities Make a Leading University?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                A Leading University has to have a track record of producing well qualified, 
+                                gifted and employable candidates. Which schools earn the accolade?
+                            </div>
+                        </div>                                             
+                    </article>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-3.png" alt="" class="w-100">                       
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    How Can a Good Business Education Benefit You?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Enrolling at a good Business School might be the best investment you can make 
+                                in your future, and while costs can be significant, the rewards are incalculable. Find out more.
+                            </div>
+                        </div>                                              
+                    </article>
+                    <article class="card m-b-20px sponsor">
+                        <div class="img-container">
+                            <a href="#" class="featured-top w-100 d-block">
+                                <img src="./img/opinion-sponsored-4.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="category category-tag-blue text-uppercase">
+                                Sponsored Insight
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    What Is Your Accounting And Finance Team Missing?
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Have you ever wanted more from your accounting and finance professionals? These three letters can help.
+                            </div>
+                        </div>                                             
+                    </article>
+                </div>                
+            </div>
+        </section>
+        <section class="page-bottom">
+            <h2 class="d-none">Semantic tag</h2>
+            <section class="row magazine">
+                <h2 class="d-none">Semantic tag</h2>
+                <div class="container-fluid">
+                    <header class="section-title d-flex justify-content-center mb-3 py-2 border-bottom">
+                        <img class="newsweek-icon" src="./img/newsweek-icon.png" alt="">
+                        <div class="title-txt d-flex align-items-center">
+                            IN THE MAGAZINE
+                        </div>
+                    </header>
+                    <div class="row align-items-center magazine row-1">
+                        <article class="col-md 3">
+                            <h2 class="d-none">Semantic tag</h2>
+                            <div class="img-container mb-0">
+                                <a href="#">
+                                    <img src="./img/mag-1.jpg" alt="" class="w-100 mag-img-1">
+                                </a>                       
+                                <div class="category">
+                                    <a href="#" class="mag-tag">May 01 ISSUE</a>
+                                </div>
+                            </div>                           
+                            <a href="#" class="d-block mag-btn text-uppercase text-center">
+                                See All Features
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </article>
+                        <article class="col-md-3">
+                            <div class="img-container">
+                                <a href="#" class="mag-img-2 w-100 d-block">
+                                    <img src="./img/mag-2.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">COVER</span>
+                                    <a href="#" class="sector text-uppercase d-inline-block"> POLITICS</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules
+                                </a>
+                            </h5>
+                        </article>
+                        <article class="col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-3.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">COVER</span>
+                                    <a href="#" class="sector text-uppercase"> POLITICS</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More
+                                </a>
+                            </h5>
+                        </article>
+                        <article class="col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-4.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">Features</span>
+                                    <a href="#" class="sector text-uppercase"> Health</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    How Doctors are Saving Coronavirus Patients with Innovative New Techniques
+                                </a>
+                            </h5>
+                        </article>  
+                    </div>
+                    <div class="row magazine-row-2 d-flex align-items-stretch">
+                        <article class="col-12 col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-5.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">Periscope</span>
+                                    <a href="#" class="sector text-uppercase"> Culture</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    Exclusive: How FEMA Missed a Chance to Prepare for Coronavirus Pandemic
+                                </a>
+                            </h5>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-6.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">Downtime</span>
+                                    <a href="#" class="sector text-uppercase"> Culture</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    Ten Surprising Things We Learned from the Michael Jordan ESPN Documentary
+                                </a>
+                            </h5>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-7.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="no-float-tag">
+                                    <span class="tag d-inline-block text-uppercase">Downtime</span>
+                                    <a href="#" class="sector text-uppercase"> Culture</a>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    10 Books That Will Transport You All Around the World
+                                </a>
+                            </h5>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <div class="img-container">
+                                <a href="#">
+                                    <img src="./img/mag-8.jpg" alt="" class="mag-img-2 w-100">
+                                </a> 
+                                <div class="float-tag">
+                                    <span class="tag d-inline-block text-uppercase">in focus</span>
+                                </div>
+                            </div>
+                            <h5>
+                                <a href="" class="column-heading-link-small">
+                                    NO PLACE LIKE HOME
+                                </a>
+                            </h5>
+                        </article>
+                    </div>  
+                </div>                
+            </section>
+            <section class="row editors-pick m-b-20px">
+                <h2 class="d-none">Semantic tag</h2>
+                <div class="container-fluid">
+                    <header class="section-title d-flex justify-content-center p-3 my-3 border-bottom">
+                        <img class="newsweek-icon" src="./img/newsweek-icon.png" alt="">
+                        <div class="title-txt d-flex align-items-center text-uppercase">
+                            Editor's Pick
+                        </div>
+                    </header>
+                    <div class="row editor-row-1 p-b-20px">
+                        <article class="col-md-6 col-lg-3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-1.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag">
+                                        U.S.
+                                    </a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Florida Voters Think White House Responded Too Slowly to Coronavirus: Poll
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                President Trump was also found to be three points behind former Vice President Joe
+                                Biden in head-to-head polling from the state.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-2.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag">U.S.</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Donald Trump, Justin Trudeau, Queen Rania and Others Share Ramadan Messages
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Heads of state across the world have emphasized the importance of social distancing during Ramadan.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-3.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag text-uppercase">Health</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Coronavirus Vaccine Trial Participant Reveals Potential Side Effects
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                There are over 100 potential vaccines in development around the world, 
+                                with the Oxford group among the first to test theirs in human volunteers.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-4.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag">U.S.</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    At Least 566 Federal Prisoners Test Positive For COVID-19, With 24 Deaths
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                The Bureau of Prisons currently oversees the care of 143,407 
+                                federal inmates in the institutions it manages.
+                            </div>
+                        </article>
+                    </div>
+                    <div class="row editor-row-2 p-b-20px">
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-5.png" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag text-uppercase">Tech & Science</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    First Comprehensive Geological Map of the Moon Created by USGS
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                The map was put together using six regional maps made during the Apollo era, 
+                                in combination with information collected during recent lunar missions.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-6.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag text-uppercase">Health</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Can Animals Get Coronavirus? New York Pet Cats Test Positive for COVID-19
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                Pet owners with COVID-19 should avoid "petting, snuggling, being kissed or licked, 
+                                and sharing food or bedding" with their animals, the USDA said.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-7.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag text-uppercase">News</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Bizarre Royal Gifts Revealed Including a Bomber Jacket From Donald Trump
+                                </a>
+                            </h3>
+                            <div class="summary">
+                                The official list of weird and wonderful presents given to the royal family last year is out, 
+                                with Donald Trump and Archbishop Desmond Tutu both making an appearance.
+                            </div>
+                        </article>
+                        <article class="col-md-6 col-lg 3">
+                            <div class="img-container">
+                                <a href="#" class="d-block">
+                                    <img src="./img/editor-8.jpg" alt="" class="editor-img w-100">
+                                </a>  
+                                <div class="category">
+                                    <a href="#" class="editor-tag text-uppercase">Tech & Science</a>
+                                </div>   
+                            </div>
+                            <h3>
+                                <a href="#" class="column-heading-link">
+                                    Levels of Ocean Biodiversity Have Barely Changed for Millions of Years
+                                </a>
+                            </h3>
+                            <div class="summary mb-0">
+                                Scientists have analyzed fossils from the Cambrian explosion 540 million years 
+                                ago to the present day to explore levels of marine biodiversity over time.
+                            </div>
+                        </article>
+                    </div>
+                </div>                
+            </section>
+            <section class="section-picks">
+                <h2 class="d-none">Semantic tag</h2>
+                <div class="block-title border-top">
+                    U.S.
+                </div>
+                <div class="row picks-row-1">
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-1.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        Nearly Three-Quarters of Single Democrats Won't Date Trump Voters: Survey
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-2.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        How to Donate and Support Local Places of Worship During the Pandemic
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-3.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Illinois Hits Highest Number of New Coronavirus Cases in a Day With 2,724
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-4.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Has a State Ever Gone Bankrupt?
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-5.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Did Anyone Win the $174 Million Mega Millions Jackpot Last Night?
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-title border-top text-capitalise">
+                    World
+                </div>
+                <div class="row picks-row-2">
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-12 col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-6.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        Kim Jong Un Is Absent Amid Health Rumors on Armed Forces Anniversary
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-12 col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-7.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        China Sends Doctors to North Korea as Rumors on Kim Jong Un's Health Swirl
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-8.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Navy Ship Ordered to Fight Cartels Exploiting COVID-19 Now Hit By Disease
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-9.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Japanese Mayor Says Women Take Longer to Grocery Shop Than Men
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-10.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Meghan Markle Accuses Mail on Sunday of 'Humiliating' Her Father
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                      
+                <div class="block-title border-top text-capitalise">
+                    Business
+                </div>
+                <div class="row picks-row-3">                       
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img">
+                                    <img src="./img/pick-11.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        80% of sites pushing COVID-19 fake news were publishing other conspiracies
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-12.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        As Texas Plans to Extend Reopening, Some Local Businesses Say They Aren't Ready
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-13.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        More People Have Filed for Unemployment Than Live in 10 Largest U.S. Cities
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-14.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Fogo de Chão To Receive $20 Million In Small Business Loan
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-15.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Low Oil Prices Could Stretch Into May, Analysts Say Following Collapse
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-title border-top text-capitalise">
+                    Tech & Science
+                </div>
+                <div class="row picks-row-4">                       
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-16.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        NASA Marks Hubble's 30th Birthday With Stunning Image of 'Cosmic Reef'
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-17.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        Japan's Sakurajima Volcano Erupts, Spewing Lava Bombs and Ash Into Air
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-18.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        First Comprehensive Geological Map of the Moon Created by USGS
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-19.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Nintendo Confirms Hack Attack Has Exposed 160,000 User Accounts
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-20.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        The World is Losing 9 Percent of Its Insects Every Decade, Study Finds
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-title border-top text-capitalise">
+                    Culture
+                </div>
+                <div class="row picks-row-5">                      
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-21.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        What's Going on With SNL This Week? How to Watch #SNLAtHome
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-22.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        Celebs to Unite for Online Event to Raise Funds for L.A. Pandemic Relief
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-23.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Here's What Dolly Parton and 'Buffy the Vampire Slayer' Have in Common
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-24.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        'The Expanse' Author Nixes Musical Episode Idea
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-25.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        How to Watch 'Sesame Street' Explain 'The ABC's of COVID-19'
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-title border-top text-capitalise">
+                    Sports
+                </div>
+                <div class="row picks-row-6">
+                    <div class="col-md-8">
+                        <div class="row picks">
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-26.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        Chuck Cooper Became First African American Drafted in the NBA 70 Years Ago
+                                    </a>
+                                </h4>
+                            </article>
+                            <article class="col-md-6">
+                                <a href="#" class="pick-img d-block">
+                                    <img src="./img/pick-27.jpg" alt="" class="w-100">
+                                </a>
+                                <h4>
+                                    <a href="#" class="column-heading-link">
+                                        'Friday Night SmackDown' Results (4/24): More Money in the Bank Competitors
+                                    </a>
+                                </h4>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled picks-aside">
+                            <li class="pick-item pt-0">
+                                <a href="#">
+                                    <img src="./img/pick-28.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Velveteen Dream Denies Allegations of Sending Explicit Photos to Minor
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item">
+                                <a href="#">
+                                    <img src="./img/pick-29.jpg" alt="" class="mr-3">
+                                </a>
+                                <div class="picks-link">
+                                    <a href="#" class="nav-link small-title">
+                                        Oklahoma Plans For In-Person Classes This Fall Opens Door For Football
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="pick-item border-bottom-0">
+                                <a href="#">
+                                    <img src="./img/pick-30.jpg" alt="" class="mr-3">
+                                </a>
+                                    <a href="#" class="nav-link small-title">
+                                        2020 NFL Draft Day 2 Picks: Results Second and Third Round
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                                         
+            </section>
+        </section>
+        <section class="container-fluid connect-area">
+            <h2 class="d-none">semantic tag</h2>
+            <div class="row">
+                <article class="col-12 col-lg-8">
+                    <div class="subscribe-title text-uppercase">
+                        Subscribe
+                    </div>
+                    <div class="row subscribe-block m-b-20px">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                            <div class="subscribe-img">
+                                <img src="./img/subscribe-1.jpg" alt="" class=" subscribe-img-dimens subscriber-img-1">
+                                <img src="./img/subscribe-2.jpg" alt="" class="subscribe-img-dimens subscriber-img-2">
+                            </div>                      
+                        </div>
+                        <div class="col-md-8 d-md-flex align-items-center">
+                            <div class="details">
+                                <h3>
+                                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                                </h3>
+                                <p>
+                                    All Access + Weekly Delivery. <br/>
+                                    Choose A Membership That's Perfect for You!
+                                </p>
+                                <a href="#" class="btn-subscribe text-uppercase d-inline-block">
+                                    <span>subscribe</span>
+                                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>              
+                </article>
+
+                <article class="col-lg-4">
+                    <div class="subscribe-title text-uppercase">
+                        Newsletter
+                    </div>
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-md-4 col-lg-6 newsletter-img"></div>
+                        <div class="col-md-8 col-lg-6 px-0 border">
+                            <div class="descript">
+                                <h3>
+                                    The Starting 5
+                                </h3>
+                                <p>
+                                    See why nearly a quarter of a million 
+                                    subscribers begin their day with the Starting 5.
+                                </p>
+                                <a href="#" class="btn-subscribe text-uppercase d-inline-block">
+                                    <span>SIGNUP</span>
+                                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="row border-bottom">
+                <div class="col-md-6 p-b-12px">
+                    <div class="logo-copyright d-flex flex-column flex-md-row">
+                        <a href="#">
+                            <img src="./img/newsweek-logo-2.png" alt="" class="footer-logo mr-3">
+                        </a>                   
+                        <p class="copyright align-self-md-end text-uppercase mb-0">© 2020 Newsweek</p>
+                    </div>
+                </div>
+                <div class="col-md-6 p-b-12px d-flex justify-content-md-end">
+                    <ul class="list-unstyled mb-0 social-icons d-flex align-items-md-end">
+                        <li class="icon-item">
+                            <a href="#" class="item-link">
+                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="item-link">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="item-link">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="item-link">
+                                <i class="fab fa-tumblr" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="icon-item">
+                            <a href="#" class="item-link">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>                       
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="links-edition d-flex">
+                    <strong>Edition:</strong>
+                    <ul class="list-unstyled footer-menu d-flex">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">U.S. Edition</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">日本</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Pakistan</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Polska</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">România</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="list-unstyled footer-menu d-flex flex-wrap pt-0">
+                    <li class="menu-item">
+                        <a href="" class="menu-link">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Corrections</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Editorial Guidelines</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Advertise</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Copyright</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Terms & Conditions</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Cookie Policy</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Terms of Sale</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link footer-link">Archive</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link footer-link">Announcements</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link footer-link">Consent preferences</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="scroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
