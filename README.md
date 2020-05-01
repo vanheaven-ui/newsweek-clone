@@ -13,7 +13,7 @@ Here is a screenshot of the clone
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/vanheaven-ui/newsweek-clone/dev-branch/index.html)
+[Live Demo Link](https://vanheaven-ui.github.io/newsweek-clone/.)
 
 ### Prerequisites
 
