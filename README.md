@@ -1,6 +1,6 @@
 # The newsweek home page clone
 
-This project was completed under Microverse remote software development curriculum. The project requirement was to clone the newsweek home page [here](https://www.newsweek.com/) using bootstrap frame work. I completed the project by adding a few media queries to ensure full responsiveness on mobile, tablet and desktop screens.
+> This project was completed under Microverse remote software development curriculum. The project requirement was to clone the newsweek home page [here](https://www.newsweek.com/) using bootstrap frame work. I completed the project by adding a few media queries to ensure full responsiveness on mobile, tablet and desktop screens.
 
 Here is a screenshot of the clone 
 
